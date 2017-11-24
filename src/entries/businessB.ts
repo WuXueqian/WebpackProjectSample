@@ -1,5 +1,18 @@
-export const name = "businessB";
+import B from "../views/viewB";
 
-export default function test() {
-    console.log(name);
+declare var module;
+
+B();
+
+// if (module.hot) {
+//     module.hot.accept("../views/viewA", () => {
+//         A();
+//     });
+// }
+
+//accept self
+if (module.hot) {
+    module.hot.accept(() => {
+        B();
+    });
 }

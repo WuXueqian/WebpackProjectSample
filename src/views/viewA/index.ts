@@ -6,7 +6,7 @@ const styles = require("./index.less");
 export const a = "businessB-view";
 
 export default function test() {
-    console.log(a + "0123");
+    console.log(a + "0123456");
     console.log(styles.container);
 }
 

@@ -10,8 +10,8 @@
 
 <body>
     global template/specified template configuration for myWebpack
-    <% htmlWebpackPlugin.options.venders.forEach(function(src) { %>
-        <script type=text/javascript src=/<%=src %>></script>
+    <% htmlWebpackPlugin.options.scripts.forEach(function(src) { %>
+        <script type=text/javascript src=<%=src %>></script>
         <% }) %>
 </body>
 

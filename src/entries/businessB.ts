@@ -5,8 +5,8 @@ declare var module;
 B();
 
 // if (module.hot) {
-//     module.hot.accept("../views/viewA", () => {
-//         A();
+//     module.hot.accept("../views/viewB", () => {
+//         B();
 //     });
 // }
 
